@@ -13,8 +13,8 @@ c = 0
 while (allow() == "in meeting"):  
   while (c < 15):
     impostor.sendMessage("get rekt bah imposta")
-   
-print("Removed From Meet")
+  print("15 Messages sent") 
+print("Removed From Meeting")
     
   
   
