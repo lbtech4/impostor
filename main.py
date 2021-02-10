@@ -1,1 +1,16 @@
+import impostor
+time.sleep(2)
+impostor.connect("will add zoom url here after")
 
+while (allow() == "not allowed"):
+  print("Waiting for allow")
+  
+impostor.openChat()
+c = 0
+while (c <  15):
+  c+=1
+  impostor.sendMessage("get rekt bah imposta")
+  
+  
+  
+  
