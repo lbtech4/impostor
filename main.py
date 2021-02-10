@@ -1,15 +1,21 @@
 import impostor
+import time
+
 time.sleep(2)
 impostor.connect("will add zoom url here after")
 
 while (allow() == "not allowed"):
   print("Waiting for allow")
   
-impostor.openChat()
+impostor.openChat() 
 c = 0
-while (c <  15):
-  c+=1
-  impostor.sendMessage("get rekt bah imposta")
+
+while (allow() == "in meeting"):  
+  while (c < 15):
+    impostor.sendMessage("get rekt bah imposta")
+   
+print("Removed From Meet")
+    
   
   
   
