@@ -1,6 +1,6 @@
 # impostor
 Bot for zoom
-connect(url)
-sendMes(mes)
-chat()
-allow()
+connect(url)<br>
+sendMes(mes)<br>
+chat()<br>
+allow()<br>
