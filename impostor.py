@@ -17,7 +17,8 @@ def connect(url):
   pyautogui.moveTo(pyautogui.locateOnScreen("join.png")); time.sleep(1); pyautogui.click()
   
 def openChat():
-  pyautogui.click(pyautogui.locateOnScreen("chat.png")
+  time.sleep(1)
+  pyautogui.hotkey('alt', 'h')
                   
 def sendMessage(mes):
  pyautogui.typewrite(mes)
